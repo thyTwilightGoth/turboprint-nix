@@ -15,10 +15,10 @@
 let
 
   pname = "turboprint";
-  version = "2.57-1";
+  version = "2.59-1";
   src = fetchurl {
     url = "https://www.zedonet.com/download/tp2/turboprint-${version}.x86_64.rpm";
-    hash = "sha256-vluEWmgJcSSqAKLjG3Ony3yCRSEDKWXw9SWZsuX0ii8=";
+    hash = "sha256-0cb7b499218cf005792834b82b9ab3467dcb3ddecfe90c0a89911fe5433af570";
   };
   meta = with lib; {
     homepage = "https://turboprint.info";
